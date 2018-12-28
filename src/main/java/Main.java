@@ -5,12 +5,14 @@ import chuckNorrisIO.ChuckNorrisIO;
  */
 public class Main {
   public static void main(String[] args) throws Exception {
+    showJokes(10);
+  }
 
+  private static void showJokes(int numberOfJokes) throws Exception {
     ChuckNorrisIO cn = new ChuckNorrisIO();
-    for (int i = 0; i < 10; i++) {
+    for (int i = 1; i <= numberOfJokes; i++) {
       cn.getChuckJoke();
-      System.out.println(cn.getId() + "\t" + cn.getVal());
+      System.out.println("Joke " + i + "\t" + cn.getVal());
     }
-
   }
 }
