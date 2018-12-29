@@ -7,7 +7,7 @@ import files.ChuckJokeID;
  */
 public class Main {
 
-  private static final String FILE_NAME = "chuckJokeIDs.txt";
+  private static final String FILE_NAME = "Fired_Chuck_Norris_Jokes.txt";
 
   public static void main(String[] args) throws Exception {
     showJokes(10);

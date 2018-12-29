@@ -10,7 +10,7 @@ import org.junit.Test;
  */
 public class ChuckNorrisIOTest {
 
-  private String FILE_NAME = "chuckJokeIDsTest.txt";
+  private String FILE_NAME = "Fired_Chuck_Norris_Jokes_Test.txt";
 
   @Test
   public void firedJokeTest(){
