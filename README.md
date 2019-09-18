@@ -13,3 +13,26 @@ Retrieve a random chuck joke in JSON format from:
     - Odpowiedź przyjdzie w formacie JSON
     - Do zamiany JSONa na obiekt javowy możesz użyć biblioteki Gson.
 - Zadanie dodatkowe: Nigdy nie wyświetlaj dwa razy tego samego żartu.
+
+---
+
+> [https://api.chucknorris.io/jokes/categories](https://api.chucknorris.io/jokes/categories)
+> ["explicit","dev","movie","food","celebrity","science","sport","political","religion","animal","history","music","travel","career","money","fashion"]
+>	
+>- 0:	"explicit"
+>- 1:	"dev"
+>- 2:	"movie"
+>- 3:	"food"
+>- 4:	"celebrity"
+>- 5:	"science"
+>- 6:	"sport"
+>- 7:	"political"
+>- 8:	"religion"
+>- 9:	"animal"
+>- 10:	"history"
+>- 11:	"music"
+>- 12:	"travel"
+>- 13:	"career"
+>- 14:	"money"
+>- 15:	"fashion"
+
